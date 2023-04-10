@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body{
+  padding:0;
+  margin:0;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+}
+
+var(--gap, 1rem);
+
+*{
+    list-style:none;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+text-decoration: none;
+color:black;
+}
+
+div{
+color:black;
+}
+
+.topmostBar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left:1rem;
+    align-items: center;
+    background-color: #0002cb;
+    color:white
+}
+
+.topmostsocials{
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding:1%;
+
+}
+
+.logoImage{
+width:80px;
+height:80px;
+position: absolute;
+top:0.1rem;
+
+}
+
+.topSocialsChild{
+padding:0px 1rem;
+margin:0px 1rem;
+color:white;
+text-decoration: none;
+}
+.topSocialsChild a{
+    color:white;
+    text-decoration: none;
+}
+.socials-icon{
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* NAV BAR STARTS HERE */
+nav{
+    background-color: #0002cb;
+    color:rgb(199, 199, 199);
+    margin:1rem 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.navChildCont{
+    margin:0px 0rem;
+    padding:0.6rem 0rem 0.6rem 0rem;
+    transition: 0.2s linear;
+}
+.navChild{
+    margin:0px 3rem;
+    padding:0.6rem 2.5rem 0.6rem 2.5rem;
+    transition: 0.2s linear;
+    color:white;
+    text-decoration: none;
+}
+
+.navChild:hover{
+    background-color:rgb(41, 41, 41); 
+}
+
+
+
+
+
+.top-container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  width:100%;  
+  grid-template-columns:1fr 3fr;
+  margin:1rem;
+  }
+
+hr{
+  width:50%;
+}
+
+
+
+.top-details-container{
+flex-grow:8; 
+padding-left:10px;
+}
+
+.top-details-container h2 a{
+color:white;
+}
+
+.mainName{
+  margin-top:0px;
+  padding:1rem 0px;
+  font-size:3rem;
+  text-align:start;
+  margin-left: 10px;
+}
+
+h1{
+  text-align:center;
+  font-size:3rem;
+  flex-grow:1;
+  padding:0px 10px;
+}
+
+.profile-image-container{
+  min-width:300px;
+}
+.profile-image{
+  width:15rem;
+  height:100%;
+  flex-grow:1;
+}
+
+
+
+.main-container{
+ display:flex;
+ flex-direction:row;
+
+  
+}
+
+sidebar{
+  flex-grow:1;
+  min-width:350px;
+  margin:10px 0px 2rem 0px;
+  border-right:2px solid #b5bebb;
+}
+
+
+.skillsHeading{
+ font-size:2.9rem;
+  padding:10px 0px;
+  margin-top:1rem;
+}
+
+
+
+.sidebarSubChild{
+margin-left:1rem; 
+box-sizing:border-box;
+font-size:1.1rem;
+
+}
+
+.skillsChildContainer{
+  display:flex;
+  flex-direction:row;
+  justify-items:center;
+  align-items:center;
+  padding:0px 0px 0px 10px;
+  margin-top:10px;
+  transition:0.2s linear;
+}
+
+.skillsChildContainer:hover{
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+
+.sidebarLogos{
+  width:50px;
+  height:50px;
+  margin:0px 1rem 0px 0;
+}
+
+/* Language Part */
+.edulangContainer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.edulangContainer div{
+  width:45%;
+  border:2px solid red;
+}
+
+.profEduLang{
+  display:flex;
+  flex-direction:row;
+  justify-items:center;
+  align-items:center;
+  row-gap: 1rem;
+
+  margin-top:10px;
+  transition: 0.25s ease-in-out;
+  padding:10px 0px;
+}
+.profEduLang:hover{
+  padding:10px 0px 10px 10px;
+}
+
+.language-image{
+  width:50px;
+  height:45px;
+  background-color: white;
+}
+
+.language-text{
+  margin-left:1rem;
+}
+
+
+
+.subHeading{
+  padding:10px 0px 10px 0px;
+  text-align:center;
+  font-size:2rem;
+}
+
+
+/* MAIN SECTION BEGINS */
+
+main{
+  flex-grow:3;
+  display:flex;
+  flex-direction:column;
+  padding:0px 2rem;
+}
+
+.careerObjectives{
+  padding-bottom:1rem;
+}
+
+.mainHeading{
+text-align:center;
+font-size:2.5rem;
+padding:0rem 0px;
+margin-top:2rem;
+}
+
+.experienceContainer{
+  margin:5rem 0;
+}
+
+.mainHeadingChild{
+  
+}
+
+.experienceTimeline{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  justify-content:start;
+  align-items:start;
+}
+
+.workExpericienceItem{
+font-size: 1.7rem;
+margin-top: 1rem;
+text-align: start;
+}
+
+.experienceTimelineChild{
+  text-align: start;
+  font-size: 1rem;
+}
+
+.workExperienceDetails{
+line-height: 0.8;  
+}
+h2>a{
+  color:black;
+}
+
+.workExperience{
+  padding:0 1rem;
+}
+
+.projectHeading{ 
+  padding:1rem 0px 2rem 0.5rem;
+}
+
+.langEduContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.languageContainer{
+flex-shrink: 1;
+width: 50%;
+}
+.educationContainer{
+flex-shrink: 1;
+width: 50%;
+}
+
+/* FOOTER SECTION */
+
+footer{
+  margin-top:2rem;
+  background-color:blue;
+  display:flex;
+  flex-direction:row;
+  color:white;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.footerItem{
+  padding:2rem 1rem;
+  font-size:1.5rem;
+  font-weight:bold;
+  
+}
+
+.subFooterContainer{
+ display:flex; 
+ gap:4rem;
+  
+}
+.footerLogo{
+ width:1.7rem;
+  height:1.5rem;
+}

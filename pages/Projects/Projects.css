@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+html, body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(208, 212, 216);
+}
+
+.navContainer,footer *{
+    color:white;
+}
+
+
+/* Container Styling ends here*/
+.topmostBar{
+  background-color: #0002cb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0;
+}
+
+.topmostsocials{
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding:5px;
+
+}
+
+.logoImage{
+width:100px;
+height:100px;
+position: absolute;
+top:0.5rem;
+}
+
+.topSocialsChild{
+padding:0px 1rem;
+}
+
+/* NAV BAR STARTS HERE */
+nav{
+    background-color:#0002cb ;
+    color:rgb(199, 199, 199);
+    margin:1rem 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.navChildCont{
+    margin:0px 0rem;
+    padding:0.6rem 0rem 0.6rem 0rem;
+    transition: 0.2s linear;
+
+}
+
+.navChild{
+    margin:0px 3rem;
+    padding:0.6rem 2.5rem 0.6rem 2.5rem;
+    transition: 0.2s linear;
+    color:white;
+    text-decoration: none;
+}
+
+.navChild:hover{
+    background-color:rgb(41, 41, 41); 
+}
+
+.menuContainer{
+  position: absolute;
+  left: -9999999999999999999999px;
+  margin-right: 1rem;
+  display: grid;
+  place-items: end;
+}
+
+.menuButton{
+  height:2rem;
+  width:2rem;
+}
+
+/* Main Page Section */
+
+.mainPageContainer{
+  display: flex;
+  flex-direction: column;
+  margin:0px 1rem;
+}
+
+.projectHeader{
+  font-size:3rem;
+  text-align: center;
+}
+
+.projectsChildContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin:0 5rem;
+}
+
+
+.projectChild{
+  margin:1rem 0;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(60, 63, 63);
+  color:white;
+  padding:1rem 0;
+}
+
+.project-image{
+  width:70%;
+  height:40%;
+  border-radius: 5px;
+  transition: scale 500ms;
+}
+.projectChild:hover .project-image{
+  scale:1.05;
+}
+
+.projectNames{
+  font:size;
+  text-align: center;
+  margin: 1rem 1rem;
+}
+
+.techStack{
+margin:0px 3rem;
+}
+
+.techStack *{
+font-weight: 700;
+margin:0 5px;
+}
+
+.techStack *::after{
+  content: " / ";
+}
+
+.upcomingProjectHeader{
+text-align: center;
+font-size: 2rem;
+}
+
+.projectParagraphs{
+margin:0 3rem;
+}
+
+hr{
+  width:90%;
+  margin:3rem;
+}
+/* Footer Section */
+
+footer{
+  background-color: #0002cb;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.designer{
+  margin-left: 1rem;
+  font-size:1.2rem;
+  font-weight: 600;
+  color:white;
+}
+.footerSubContainer{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items: center;
+}
+.footerChild{
+  margin:0px 1rem;
+  padding:2rem 0px;
+  font-size:1.2rem;
+  font-weight: 600;
+  cursor:pointer;
+}
+.footerChild a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* SMALL SCREEN SIZES */
+
+@media only screen and (max-width:576px){
+
+  .logoImage{
+    width:5rem;
+    height:5rem;
+    margin-left: 1rem;
+  }
+
+  .projectsChildContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+nav{
+  position: absolute;
+  left:-9999999999999999999px;
+}
+
+.menuContainer{
+  position: static;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  display: grid;
+  place-items: end;
+}
+.menuButton{
+  height:2rem;
+  width:2rem;
+}
+
+.projectNames{
+
+}
+.projectParagraphs{
+  position: absolute;
+  left:-9999999999999999999px;
+}
+
+.projectsChildContainer{
+  margin:0 2rem;
+}
+
+.projectChild{
+margin:1rem auto;
+padding: 1rem 0 0 0;
+border-radius: 5px;
+}
+
+.techStack{
+  margin:0px 3rem;
+  }
+
+  hr{
+    width:90%;
+    margin:1rem 0;
+  }
+
+}

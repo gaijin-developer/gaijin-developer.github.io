@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Contact.css" />
+    <link rel="shortcut icon" type="x-icon" href="/icon2.png" />
+    <title>Contact Frank</title>
+  </head>
+  <body>
+    <main>
+      <div class="homeContainer">
+        <button id="home"><a href="/pages/main.html"> Go Home </a></button>
+      </div>
+      <div class="mainContainer">
+        <div class="container">
+          <form action="#" method="POST">
+            <div class="headingContainer">
+              <h1 class="heading">Contact Frank</h1>
+              <hr />
+            </div>
+
+            <div class="infoContainer">
+              <div class="fullnameCont">
+                <label for="firstName"> First Name </label>
+                <input
+                  class="names"
+                  onkeyup="resetFunc()"
+                  id="firstName"
+                  type="text"
+                  placeholder="First name"
+                  required
+                />
+              </div>
+
+              <div class="fullnameCont">
+                <label for="lastName"> Last Name </label>
+                <input
+                  id="lastName"
+                  onkeyup="resetFunc()"
+                  class="names"
+                  type="text"
+                  placeholder="Last name"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="emailContainer">
+              <label for="email"> Email </label>
+              <input
+                class="emailInput"
+                onkeyup="resetFunc()"
+                id="email"
+                type="Email"
+                placeholder="Please Enter your Email"
+                name="email"
+                required
+              />
+            </div>
+
+            <div class="textarea">
+              <label> Message </label>
+              <textarea
+                onkeyup="resetFunc()"
+                id="message"
+                placeholder="Please enter your message"
+              ></textarea>
+            </div>
+
+            <h5 style="color: red; margin-left: 10px" id="warn"></h5>
+
+            <div class="buttonContainer">
+              <button id="sub">Send</button>
+              <h5 style="color: green; text-align: center" id="success"></h5>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="/pages/Contact/Contact.js"></script>
+  </body>
+</html>
