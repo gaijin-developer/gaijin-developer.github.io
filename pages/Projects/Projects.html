@@ -9,10 +9,9 @@
     <title>Projects</title>
   </head>
   <body>
-    
     <div class="topmostBar">
       <div class="sitelogo">
-        <a href="/pages/main.html">
+        <a href="#">
           <img class="logoImage" src="/photos/Gaijin logo.png" alt="" />
         </a>
       </div>
@@ -20,12 +19,20 @@
       <div class="topmostsocials">
         <div class="topSocialsChild">
           <a href="https://twitter.com/gaijin_web_dev" target="_blank">
-            <img src="/photos/twitter logo.jfif" alt="twitter logo" style="width:1.5rem;height:1.5rem;">
+            <img
+              src="/photos/twitter logo.jfif"
+              class="social-logos"
+              alt="twitter logo"
+            />
           </a>
         </div>
         <div class="topSocialsChild">
           <a href="https://github.com/gaijin-developer" target="_blank">
-            <img src="/photos/github Icon.jpg" alt="github logo" style="width:1.5rem;height:1.5rem;">
+            <img
+              src="/photos/github Icon.jpg"
+              class="social-logos"
+              alt="github icon"
+            />
           </a>
         </div>
         <div class="topSocialsChild">
@@ -33,14 +40,30 @@
             href="https://www.linkedin.com/in/frank-entsie-b27676239/"
             target="_blank"
           >
-          <img src="/photos/linkedIn Icon.png" alt="linkedin logo" style="width:1.5rem;height:1.5rem; background-color: white;">
+            <img
+              src="/photos/linkedIn Icon.png"
+              class="social-logos"
+              alt="linkedin icon"
+            />
           </a>
         </div>
       </div>
     </div>
+    <!--TOPMOST BAR ENDS HERE -->
 
-    <div>
-      <nav>
+<!-- MENU BUTTON STARTS HERE-->
+  
+
+    
+    <!--NAVBAR STARTS HERE -->
+    <div class="navContainer">
+      <a href="#" class="menuContainer">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <nav class="navBar">
         <div class="navChildCont">
           <a class="navChild" href="/pages/main.html"> HOME </a>
         </div>
@@ -48,16 +71,11 @@
           <a class="navChild" href="/pages/About/About.html"> ABOUT </a>
         </div>
         <div class="navChildCont">
-          <a class="navChild" href="/pages/Projects/Projects.html">
-            PROJECTS
-          </a>
-        </div>
-        <div class="navChildCont">
-          <a class="navChild" href="/pages/Contact/Contact.html"> CONTACT </a>
+          <a class="navChild" href="/pages/Projects/Projects.html"> PROJECTS</a>
         </div>
       </nav>
     </div>
-    <div class="menuContainer"> <img class="menuButton" src="/photos/menu button.jfif" alt="menu button"> </div>
+    
     <!-- Main Page content starts from here -->
 
     <div class="mainPageContainer">
@@ -394,7 +412,7 @@
       </div>
 
       <!-- Footer Section starts from here -->
-    </div>
+    
 
     <footer>
       <div>
@@ -408,5 +426,7 @@
         </div>
       </div>
     </footer>
+  </div>
+  <script src="./projects.js"></script>
   </body>
 </html>
