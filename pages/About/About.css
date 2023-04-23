@@ -89,8 +89,8 @@ nav{
   margin:2.5rem 0px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
+  align-items: ;
   padding-right: 5rem;
   
 }
