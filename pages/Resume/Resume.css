@@ -125,7 +125,6 @@ display:none;
 .mainName{
 font-size: clamp(1rem,  2%+1rem ,3rem);
 text-align: center;
-border-bottom: 2px solid black;
 }
 
 h1{
@@ -174,6 +173,10 @@ sidebar{
 list-style: none;
 margin:1rem 1.5rem;
 font-size: clamp(1.2rem, 5% + 0.5rem ,3rem);
+transition:padding-left 200ms ease;
+}
+.profEduLang:hover{
+padding-left:var(--small);
 }
 
 .skillsChildContainer{
@@ -255,6 +258,36 @@ height:1.7rem;
 }
 
 @media (min-width: 768px) {
-  .profile-image{
+  .skillsChildContainer{
+    width:90%;
   }
+  .top-container{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    /* margin:var(--small); */
+    }
+  .profile-image-container{
+    display:flex;
+    }
+.profile-image{
+    max-height:23rem;
+    max-width: 20rem;
+  }
+
+  .main-container{
+    display: grid;
+    grid-template-columns:1fr 3fr ;
+   }
+
+main{
+    padding:var(--small);
+   flex:4;
+  }
+
+.langEduContainer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
 }
