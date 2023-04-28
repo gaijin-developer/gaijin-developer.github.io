@@ -205,11 +205,7 @@ padding-bottom: 1rem;
   margin-right: 1.5rem;
 }
 
-/* Language Part */
-.edulangContainer{
-}
-.edulangContainer div{
-}
+
 
 /* main page starts here */
 main{
@@ -253,6 +249,7 @@ margin:var(--small) 0;
 width: 1.7rem;
 margin:0rem .5rem;
 height:1.7rem;
+background-color: white;
 }
 
 .footer-socials{
@@ -261,6 +258,7 @@ height:1.7rem;
   align-items: center;
   cursor: pointer;
 }
+
 
 
 
@@ -350,6 +348,34 @@ main{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
+}
+
+footer{
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height:7rem;
+}
+
+.footer-socials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.subFooterContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  gap:var(--big);
+  margin-right: var(--big);
+}
+
+.creator{
+  margin-left: 2rem;
 }
 
 }
