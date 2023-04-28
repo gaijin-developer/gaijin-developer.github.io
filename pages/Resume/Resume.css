@@ -321,17 +321,34 @@ background-color: white;
   .skillsChildContainer{
     width:90%;
   }
+
   .top-container{
     display:grid;
     grid-template-columns: 1fr 3fr;
      margin:var(--small); 
     }
+
   .profile-image-container{
     display:flex;
     }
+
 .profile-image{
     max-height:23rem;
     max-width: 20rem;
+  }
+
+  .top-details-container{
+    padding: 0 var(--big);
+    color:black;
+    border-radius: 5px;
+    border:2px solid blue;
+    
+  }
+
+  .mainName{
+    border:2px solid red;
+    
+    
   }
 
   .main-container{
