@@ -6,7 +6,7 @@ html,body{
   color:black;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
-  
+  background-color: antiquewhite;
 }
 
 a{
@@ -220,7 +220,6 @@ footer{
   justify-content: end;
   align-items: center;
   padding:0.4rem;
-  outline:2px solid white;
   }
 
   .topSocialsChild{
@@ -251,7 +250,7 @@ nav{
   align-items: center;
   justify-content: center;
   padding: 0px;
-  
+  transition: display 4s;  
 }
 
 .navContainer{
