@@ -341,14 +341,11 @@ background-color: white;
     padding: 0 var(--big);
     color:black;
     border-radius: 5px;
-    border:2px solid blue;
     
   }
 
   .mainName{
-    border:2px solid red;
-    
-    
+
   }
 
   .main-container{
