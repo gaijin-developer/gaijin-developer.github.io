@@ -1,0 +1,217 @@
+.resume-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @apply mb-8;
+}
+.resume-page-subcontainer {
+  max-width: 1500px;
+  @apply px-4 mt-4;
+}
+
+/* top container styling */
+.resume-top-container {
+  display: flex;
+  flex-direction: column;
+  @apply md:flex-row mt-8 md:mt-0 md:gap-4;
+}
+.resume-profile-image,
+.resume-profile-image-container {
+  max-width: 15em;
+  display: inline;
+  @apply hidden md:block;
+}
+.resume-top-details-container {
+  box-sizing: border-box;
+  flex-grow: 1;
+  @apply mt-4 md:mt-0;
+}
+.contact-detailsContainer {
+  border-bottom: 2px solid blue;
+  @apply pb-2;
+}
+.resume-detail-label {
+  @apply text-xl pb-[0.25rem];
+}
+.resume-contact-detail {
+  color: rgb(245, 245, 255);
+  @apply cursor-pointer;
+}
+/* social icons styling */
+
+.resume-contact-details-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.resumesocials-icon {
+  border: 2px solid blue;
+  @apply w-12 rounded-2xl p-1 ml-2;
+}
+
+/* SIDEBAR STYLING */
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  @apply sm:w-[90%] lg:w-[50%];
+}
+/* SKILLS STYLING */
+.skillsHeading {
+  text-align: center;
+  margin-bottom: 2px solid blue;
+  @apply text-2xl mt-4 mb-4;
+}
+.skillsHeading > hr {
+  border: 5px solid blue;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  @apply md:flex-row md:gap-3;
+}
+.skillsChildContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid rgb(85, 85, 255);
+  min-height: 4rem;
+  position: relative;
+  border-radius: 5px;
+  gap: 0.5em;
+  transition: all 300ms;
+}
+.skillsChildContainer:hover {
+  /* left: 2rem; */
+  scale: 1.04;
+  /* left: 0.5rem; */
+}
+.sidebarSubChild {
+  /* border: 2px solid red; */
+}
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  @apply mt-4;
+}
+.techskill-logo {
+  @apply w-12 ml-1 py-1;
+}
+/* PROFESSIONAL SKILLS HEADING */
+
+.professionalskills-heading {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* MAIN SECTION DETAILS */
+.career-summary {
+  border-bottom: 2px solid blue;
+  text-align: center;
+  font-size: 2rem;
+  @apply text-2xl py-4 my-4 md:my-0;
+}
+.work-experience-heading {
+  @apply text-2xl text-center mt-8;
+}
+
+/* WORK EXPERIENCE EDITING */
+.workExperience-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.experience-container {
+  background-color: rgb(64, 64, 64);
+  @apply py-3 px-2 rounded-lg;
+}
+.company-name {
+  @apply text-xl font-semibold mt-4;
+}
+.experience-role {
+  @apply text-xl font-medium;
+}
+.experience-period {
+  /* color: rgb(224, 224, 255); */
+  @apply font-semibold;
+}
+.jobdescription-container {
+  list-style: circle;
+  @apply mt-6 pl-6;
+}
+
+/* languages */
+.language-heading {
+  @apply text-2xl text-center mt-4 mb-2;
+}
+.languages {
+  @apply flex flex-col md:flex-row gap-3;
+}
+.language-heading > hr {
+  padding: 4em;
+}
+.language-item-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(0, 0, 167);
+  @apply text-center rounded-lg gap-2 px-4 py-3;
+}
+.languages-container {
+  /* @apply mb-4; */
+}
+.language-text {
+  border-bottom: 2px solid white;
+  @apply pb-2;
+}
+.language-text,
+.language-level {
+  box-sizing: border-box;
+  color: white;
+}
+
+/* EDUCATIONAL STYLING */
+.institutions-container {
+  gap: 1%;
+  @apply flex flex-col md:flex-row flex-wrap;
+}
+.institution {
+  outline: 2px solid rgb(0, 94, 255);
+  font-size: 0.9rem;
+  flex-grow: 1;
+  @apply flex gap-4 items-center mt-2 md:w-[16rem] rounded-sm;
+}
+.education-subHeading {
+  text-align: center;
+  @apply text-2xl mt-8;
+}
+.institution-logo {
+  background-color: white;
+  @apply w-12;
+}
+
+/* CERTIFICATION SECTION */
+.certification-heading {
+  text-align: center;
+  @apply text-2xl mt-11;
+}
+.certificate-image {
+  @apply w-24;
+}
+.certificate-text {
+  color: blue;
+  @apply font-bold
+  /* border: 2px solid blue; */;
+}
+.certificates {
+  padding-top: 2rem;
+  /* display: flex; */
+  /* @apply flex-col md:flex-row; */
+}
+.certificate-item {
+  display: flex;
+  background-color: rgb(173, 173, 173);
+  border-radius: 0.5rem;
+  @apply items-center mt-4 py-2;
+}

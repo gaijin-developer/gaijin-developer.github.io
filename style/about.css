@@ -1,0 +1,28 @@
+.about-container {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  @apply mb-16;
+}
+.about-heading {
+  text-align: center;
+  font-size: 2em;
+  @apply md:text-3xl mt-12;
+}
+.about-heading > hr {
+  border: 1px solid rgb(79, 79, 255);
+}
+.about-page-content {
+  margin: 1em;
+  @apply md:w-2/3;
+}
+.about-page-content > p {
+  font-size: 1.2em;
+  line-height: 2rem;
+  @apply mb-4;
+}
+.aboutpage-link {
+  font-size: 1.2em;
+  background-color: blue;
+  @apply px-4 rounded;
+}

@@ -1,0 +1,55 @@
+@import "./home.css";
+@import "./about.css";
+@import "./projects.css";
+@import "./contact.css";
+@import "./Resume.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  background-color: rgb(24, 24, 24);
+  color: rgb(225, 225, 225);
+  @apply px-0;
+}
+.showmenu {
+  display: block;
+}
+.hidemenuanime {
+  animation: hideanime 200ms linear 0s 1 forwards;
+}
+.listToggler {
+  animation: toggleanime 200ms ease-in 0s 1 forwards;
+}
+@keyframes toggleanime {
+  0% {
+    width: 5%;
+    color: rgb(255, 255, 255, 0);
+  }
+  50% {
+    width: 20%;
+    color: rgb(255, 255, 255, 0);
+  }
+  100% {
+    width: 50%;
+    color: rgb(255, 255, 255, 1);
+  }
+}
+
+@keyframes hideanime {
+  0% {
+    width: 50%;
+    height: auto;
+    color: rgba(253, 253, 253, 0.3);
+  }
+  50% {
+    width: 25%;
+  }
+  100% {
+    width: 5%;
+    height: 1px;
+    font-size: 2px;
+    color: rgba(253, 253, 253, 0);
+  }
+}

@@ -1,0 +1,55 @@
+.contactMainContainer {
+  display: grid;
+  place-items: center;
+  min-height: 80vh;
+  @apply mt-1 h-full;
+}
+#contact-form {
+  box-sizing: border-box;
+  outline: 2px solid blue;
+  @apply my-12 w-11/12 pt-2 pb-6 px-3 rounded-md md:w-3/6 xl:w-2/6;
+}
+.contactform-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  @apply pt-8;
+}
+.headingContainer > hr {
+  outline: 1px solid blue;
+  @apply mb-4;
+}
+.formcontrol-label {
+  font-size: 0.8rem;
+  display: block;
+  @apply mb-1 md:text-xl;
+}
+.formcontrol-input {
+  font-size: 0.9rem;
+  outline: 2px solid blue;
+  width: 100%;
+  color: rgb(201, 201, 201);
+  background-color: rgb(0, 45, 45);
+  @apply py-1 pl-4 mb-2 md:mb-3 rounded-lg  md:p-2;
+}
+#message {
+  height: 7rem;
+}
+/* button styling */
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#submitButton {
+  background-color: blue;
+  width: 100%;
+  @apply py-4 px-12 rounded-lg md:w-auto;
+}
+
+@media (min-width: 768px) {
+  #contact-form {
+    box-sizing: border-box;
+    outline: 2px solid blue;
+  }
+}
