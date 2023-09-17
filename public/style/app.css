@@ -1560,6 +1560,20 @@ video {
   display: contents;
 }
 
+.rounded{
+  border-radius: 0.25rem;
+}
+
+.bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 html {
   background-color: rgb(24, 24, 24);
   color: rgb(225, 225, 225);
