@@ -988,6 +988,11 @@
   width: 3rem;
 }
 
+.professional-skill{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 /* CERTIFICATION SECTION */
 
 .certification-heading {
@@ -1554,10 +1559,6 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
-}
-
-.contents{
-  display: contents;
 }
 
 .rounded{

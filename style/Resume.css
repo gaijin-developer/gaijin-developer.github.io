@@ -190,7 +190,9 @@
   background-color: white;
   @apply w-12;
 }
-
+.professional-skill{
+  @apply py-1
+}
 /* CERTIFICATION SECTION */
 .certification-heading {
   text-align: center;
